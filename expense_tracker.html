@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Table</title>
+    <link rel="stylesheet" href="expense_tracker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header>
+    <h1>Expense Tracker 2022</h1>
+    <form id="new-expense-form">
+        <input type="text"  id="For" placeholder="Enter type of expense."/>
+        Amount:
+        <input type="text" id="Amount" />
+        Date:
+        <input type="date" id="date" value="add"/>
+        <button id="submit" value="Submit">Submit</button>
+    </form>
+</header>
+<hr>
+<section class="expense-list">
+    <h2>Expenses</h2>
+    <div id="expenses">
+    </div>
+</section>
+
+
+<script src="expense_tracker.js">
+</script>
+
+</body>
+</html>

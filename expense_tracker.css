@@ -1,0 +1,63 @@
+#new-expense-form{
+    padding: 2rem 3rem;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+
+header h1{
+    padding: 1rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#For{
+    width: 17rem;
+
+}
+
+.expense-list{
+    display: flex;
+    border-left-color: yellow;
+    border-right-color: yellow;
+    border-top-color: yellow;
+}
+hr{
+    border: 9px solid red;
+    border-radius: 7px;
+}
+
+.expense-list{
+    flex-direction: column;
+}
+.expense-table, th, td{
+    text-align:center;
+    padding-left: 100px;
+    border:  solid 2px black;
+    border-collapse: collapse;
+    width: 75%;
+    height: 20px;
+    font-size: 20px;
+}
+
+.expense-table tbody td:last-child th:last-child th:first-child {
+    border-bottom: 0;
+}
+
+.draggable {
+    cursor: move;
+    user-select: none;
+}
+
+.delete {
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 25px;
+    background-color: #be1111;
+}
+.fa {
+    color: ghostwhite;
+}
+
+
